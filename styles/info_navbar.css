@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.25rem;
+}
+
+.fixed_nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1035;
+}
+
+.nav_bg {
+    /* background-color: rgba(74, 55, 55, 0.95); */
+    background-color: rgba(255, 252, 226, 0.5);
+    /* background-color: transparent; */
+}
+
+.nav_tabs {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+    font-size: 1.75rem;
+    font-family: "Yuji Hentaigana Akari", cursive;
+    /* font-family: 'Luckiest Guy', cursive; */
+}
+
+.nav_link {
+    display: block;
+    padding: 0.25rem 2rem;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+    font-size: 1.255rem;
+    font-family: "Caveat", cursive;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0.15rem;
+}
+
+.nav_brand,
+.nav_link {
+    color: #7a9f79;
+}
+
+/* .nav_link {
+    color: #fff;
+} */
+
+.nav_brand:hover,
+.nav_link:hover {
+    color: #4a3737;
+}
+
+.hamburger {
+    display: none;
+    color: #315a39;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_brand {
+        font-size: 1.5rem;
+    }
+
+    .nav_tabs {
+        display: none;
+    }
+
+    .nav_empty {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+}
