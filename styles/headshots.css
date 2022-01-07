@@ -52,8 +52,9 @@
     overscroll-behavior: contain;
 
     /* hide scroll bar */
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE, Edge */
+    overflow-x: hidden;
 
     /* disbable vertical scroll for touch */
     touch-action: pan-x;
@@ -66,8 +67,8 @@
     column-gap: 20px;
 }
 
-/* hide scroll bar */
-#photo_list:-webkit-scrollbar {
+/* hide scroll bar for Chrome, Safari, Opera */
+#photo_list::-webkit-scrollbar {
     display: none;
 }
 
