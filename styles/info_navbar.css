@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Gloria+Hallelujah&family=Rock+3D&display=swap");
 
 .nav {
     display: flex;
@@ -18,20 +19,18 @@
 .nav_bg {
     /* background-color: rgba(74, 55, 55, 0.95); */
     background-color: rgba(255, 252, 226, 0.5);
+    background-color: #37483c;
+    background-color: #29876e;
     /* background-color: transparent; */
 }
 
 ul.nav_tabs {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     margin: 0;
     padding: 0;
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
 }
 
 .nav_brand {
@@ -39,45 +38,80 @@ ul.nav_tabs {
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
     text-decoration: none;
-    white-space: nowrap;
-
-    font-size: 1.75rem;
+    font-size: 2.25rem;
+    font-weight: bold;
     font-family: "Yuji Hentaigana Akari", cursive;
-    /* font-family: 'Luckiest Guy', cursive; */
+    color: #fff;
 }
 
 .nav_link {
     display: block;
     padding: 0.25rem 2rem;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out;
-    font-size: 1.255rem;
+
     font-family: "Caveat", cursive;
-    font-family: "Anton", sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
     letter-spacing: 0.15rem;
-}
 
-.nav_brand,
-.nav_link {
-    color: #7a9f79;
-}
-
-/* .nav_link {
     color: #fff;
-} */
+}
 
 .nav_brand:hover,
 .nav_link:hover {
-    color: #4a3737;
+    color: #fff;
 }
 
-.hamburger {
+.nav_link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#hamburger span {
+    background: #315a39;
+    border-radius: 10px;
+    height: 4px;
+    margin: 4px 0;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span:nth-of-type(1) {
+    width: 50%;
+}
+
+span:nth-of-type(2) {
+    width: 100%;
+}
+
+span:nth-of-type(3) {
+    width: 75%;
+}
+
+input[type="checkbox"] {
     display: none;
-    color: #315a39;
-    border: none;
-    background-color: transparent;
-    font-size: 1.5rem;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+    transform-origin: bottom;
+    transform: rotatez(45deg) translate(5px, 2px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+    transform-origin: top;
+    transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+    transform-origin: bottom;
+    width: 55%;
+    transform: translate(13px, -7px) rotatez(45deg);
 }
 
 @media screen and (max-width: 1100px) {
@@ -92,8 +126,10 @@ ul.nav_tabs {
     .nav_empty {
         display: none;
     }
+}
 
-    .hamburger {
-        display: inline-block;
+@media screen and (min-width: 1100px) {
+    #hamburger {
+        display: none;
     }
 }

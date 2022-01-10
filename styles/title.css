@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Gloria+Hallelujah&family=Rock+3D&display=swap");
 
 body {
-    background-image: url("../public/img/title-background.svg");
+    background-image: url("../public/img/title-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -14,19 +15,17 @@ body {
     margin: 0 auto;
     right: 0;
     left: 0;
-    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    /* font-family: "Anton", sans-serif;
-    letter-spacing: 0.15rem; */
+    font-family: "Caveat", cursive;
 }
 
 .navbar_main_btns {
-    border-radius: 10px;
     padding: 10px 15px 12px 15px;
     margin: 0 25px;
     text-decoration: none;
@@ -34,40 +33,30 @@ body {
 
 .navbar_main_white {
     color: #ffffff;
-    /* color: #7a9f79; */
-    /* color: linear-gradient(to right, #fff 0%, #7a9f79 100%); */
 }
 
 .navbar_main_white:hover {
-    /* text-decoration: underline; */
     color: #ffffff;
+    border-bottom: 2px solid #fff;
 }
 
 .navbar_main_white:focus {
-    /* text-decoration: underline; */
     color: #c0c0c0;
+    border-bottom: 2px solid #fff;
 }
 
 .navbar_main_contact_me {
-    /* box-shadow: 3px 4px 5px #888888; */
-    color: #fff;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #315a39;
+    color: #f6f6c5;
+    border: 2px solid #f6f6c5;
+    border-radius: 5px;
+    background: transparent;
     transition: 0.2s ease-in-out;
 }
 
 .navbar_main_contact_me:hover {
     background: #b8d5cd;
-    background: linear-gradient(to right, #f5f7fa 0%, #b8d5cd 100%);
-    /* background: linear-gradient(to right, #92ffc0 0%, #002661 100%); */
-    /* background-image: linear-gradient(
-        129.1deg,
-        rgba(243, 199, 83, 1) 26.8%,
-        #7a9f79 100%
-    ); */
-    color: #315a39;
-    /* color: #fff; */
+    background: linear-gradient(to right, #f5f7fa -50%, #29876e 250%);
+    color: #29876e;
 }
 
 .navbar_main_contact_me:focus {
@@ -80,7 +69,6 @@ body {
     position: absolute;
     top: 50%;
     right: 7.5%;
-    /* left: 75%; */
     transform: translate(0%, -50%);
     color: white;
 }
@@ -96,12 +84,10 @@ body {
 
 .title_name {
     font-family: "Anton", sans-serif;
-    /* font-family: "Yuji Hentaigana Akari", cursive; */
     font-size: 4rem;
     letter-spacing: 0.15rem;
-    /* letter-spacing: normal; */
     margin: 0;
-    color: #7a9f79;
+    color: #29876e;
 }
 
 .role {
@@ -139,9 +125,8 @@ body {
 
     .navbar_main_contact_me {
         background: #b8d5cd;
-        background: linear-gradient(to right, #f5f7fa 0%, #b8d5cd 100%);
-        /* text-decoration: underline; */
-        color: #315a39;
+        background: linear-gradient(to right, #f5f7fa -50%, #29876e 250%);
+        color: #29876e;
     }
 
     @media (max-height: 450px) {

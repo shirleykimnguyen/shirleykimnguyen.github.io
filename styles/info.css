@@ -5,6 +5,8 @@
 
 body {
     background-color: #fffce2;
+    background-color: #c7c5d8;
+    background-color: #f6f6c5;
 }
 
 main {
@@ -24,7 +26,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 55px 0 0 0;
+    padding: 64px 0 0 0;
 }
 
 .heading h1 {
@@ -33,6 +35,7 @@ h1 {
     /* font-family: 'Gloria Hallelujah', cursive; */
     font-size: 6rem;
     text-align: center;
+    color: #29876e;
 }
 
 .content {
@@ -52,33 +55,29 @@ h1 {
     align-items: center;
     text-align: center;
     max-width: 700px;
-    margin: 0 25px;
+    margin: 0 75px;
     padding: 0px;
     color: #000000;
 }
 
 .title_name {
     font-family: "Anton", sans-serif;
-    /* font-family: 'Poiret One', cursive;
-    font-family: 'Advent Pro', sans-serif;
-    font-family: 'Arima Madurai', cursive; */
-    /* font-family: 'Shadows Into Light', cursive; */
     font-size: 2.5em;
     margin: 0.25rem auto;
-    color: #315a39;
+    color: #29876e;
 }
 
 .about_quote {
     max-width: 500px;
     font-size: 1.25rem;
     text-align: cetner;
-    color: #7a9f79;
+    color: #578665;
     margin: 0.5rem auto;
 }
 
 .quote_highlight {
     font-style: normal;
-    color: #315a39;
+    color: #44684f;
 }
 
 .caption {
@@ -88,10 +87,13 @@ h1 {
 .reels_main {
     display: flex;
     flex-direction: column;
-    /* max-width: 1000px; */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
+}
+
+.reels_main h2 {
+    font-size: 1.5rem;
 }
 
 .main_vid {
@@ -112,8 +114,26 @@ h1 {
     align-items: center;
 }
 
+.reel_vid h3 {
+    font-size: 1.25rem;
+}
+
 .vid {
     max-width: 100%;
+}
+
+iframe {
+    width: 100%;
+    min-height: 750px;
+}
+
+#resume p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#resume p a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -157,5 +177,11 @@ h1 {
         .navbar-brand {
             font-size: 1rem;
         }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    iframe {
+        min-height: 450px;
     }
 }
