@@ -4,8 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
 
 body {
-    background-color: #fffce2;
-    background-color: #c7c5d8;
     background-color: #f6f6c5;
 }
 
@@ -31,8 +29,7 @@ h1 {
 
 .heading h1 {
     font-family: "Caveat", cursive;
-    /* font-family: 'Architects Daughter', cursive; */
-    /* font-family: 'Gloria Hallelujah', cursive; */
+
     font-size: 6rem;
     text-align: center;
     color: #29876e;
