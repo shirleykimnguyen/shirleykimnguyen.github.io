@@ -45,8 +45,11 @@ h1 {
 }
 
 .content_img {
-    max-width: 500px;
+    border: 3px solid #fff;
+    max-width: 450px;
     margin-bottom: 30px;
+    box-shadow: 5px 5px rgb(112, 112, 112);
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 .branding {
@@ -82,6 +85,8 @@ h1 {
 
 .caption {
     text-align: justify;
+    color: #44684f;
+    font-weight: 600;
 }
 
 .reels_main {

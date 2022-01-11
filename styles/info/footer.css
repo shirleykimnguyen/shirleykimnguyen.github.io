@@ -1,0 +1,40 @@
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #29876e;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    min-height: 150px;
+    padding: 25px 50px;
+}
+.agency_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #fff;
+    margin: 0 1.5rem;
+}
+
+.agency_contact a {
+    color: #fff;
+}
+
+.my_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #fff;
+}
+
+.my_contact a {
+    color: #fff;
+}
