@@ -7,51 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/info.css" />
-    <link rel="stylesheet" href="./styles/info_navbar.css" />
-    <link rel="stylesheet" href="./styles/headshots.css" />
+    <link rel="stylesheet" href="./styles/info/info.css" />
+    <link rel="stylesheet" href="./styles/info/info_navbar.css" />
+    <link rel="stylesheet" href="./styles/info/headshots.css" />
 
-    <title>Shirley's Website</title>
+    <title>Shirley Kim Nguyen</title>
 </head>
 
 <body>
-    <nav class="nav fixed_nav nav-dark nav_bg">
-        <a class="nav_brand" href="/">S.K.N</a>
-        <ul id="web_nav_tabs">
-            <li>
-                <a class="nav_link" href="/info.html#about">about</a>
-            </li>
-            <li>
-                <a class="nav_link" href="/info.html#reels">reels</a>
-            </li>
-            <li>
-                <a class="nav_link" href="/info.html#resume">resume</a>
-            </li>
-            <li>
-                <a class="nav_link" href="/info.html#headshots">headshots</a>
-            </li>
-            <li>
-                <a class="nav_link" href="/info.html#contact">contact me</a>
-            </li>
-        </ul>
-        <div class="nav_empty"></div>
-        <label for="check" id="hamburger">
-            <input type="checkbox" id="hamburger_check" />
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <div class="mobile_nav_menu">
-            <ul id="mobile_nav_tabs">
-                <li>
-                    <a class="nav_link" href="/info.html#about">Shirley Kim Nguyen</a>
-                </li>
+    <header>
+        <nav class="nav fixed_nav nav-dark nav_bg">
+            <a class="nav_brand" href="/">S.K.N</a>
+            <ul id="web_nav_tabs">
                 <li>
                     <a class="nav_link" href="/info.html#about">about</a>
                 </li>
@@ -68,8 +38,37 @@
                     <a class="nav_link" href="/info.html#contact">contact me</a>
                 </li>
             </ul>
-        </div>
-    </nav>
+            <div class="nav_empty"></div>
+            <label for="check" id="hamburger">
+                <input type="checkbox" id="hamburger_check" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="mobile_nav_menu">
+                <ul id="mobile_nav_tabs">
+                    <li>
+                        <a class="nav_link" href="/">Shirley Kim Nguyen</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="/info.html#about">about</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="/info.html#reels">reels</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="/info.html#resume">resume</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="/info.html#headshots">headshots</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="/info.html#contact" id="contact_me">contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <section id="about">
@@ -210,7 +209,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="./javascript/headshotGallery.js"></script>
-    <script type="text/javascript" src="./javascript/infoNavBar.js"></script>
+    <script type="text/javascript" src="./javascript/hamburgerMenu.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Gloria+Hallelujah&family=Rock+3D&display=swap");
 
 body {
-    background-image: url("../public/img/title-background.jpg");
+    background-image: url("../../public/img/title-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ body {
 
 @media (max-width: 481px) {
     body {
-        background-image: url("../public/img/headshots/headshot.jpg"); /* image without the linear gradient */
+        background-image: url("../../public/img/headshots/headshot.jpg"); /* image without the linear gradient */
     }
 }
 
