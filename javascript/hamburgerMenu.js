@@ -20,8 +20,5 @@ function toggleMenu() {
     }
 }
 
-console.log(hamburger);
-console.log(mobileNavMenu);
-
 initPage();
 hamburger.addEventListener("click", toggleMenu);

@@ -96,6 +96,22 @@ body {
     color: #b8d5cd;
 }
 
+.my_contact_icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.my_contact_icons a {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.my_contact_icons p {
+    margin-bottom: 0;
+}
+
 #info_button {
     display: none;
     margin: 15px 0;

@@ -18,11 +18,12 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://skn1997.github.io/info" />
     <link rel="alternate" href="https://skn1997.github.io/info.html" />
+    <script type="text/javascript" src="./javascript/infoIdAnchorTagScroll.js"></script>
 
-    <title>Shirley Kim Nguyen | Portfolio Website</title>
 </head>
 
 <body>
+    <title>Shirley Kim Nguyen | Portfolio Website</title>
     <header>
         <nav class="nav fixed_nav nav-dark nav_bg">
             <a class="nav_brand" href="/">S.K.N</a>
@@ -54,21 +55,28 @@
                 <ul id="mobile_nav_tabs">
                     <li>
                         <a class="nav_link" href="/" id="mobile_nav_tabs_home">S.K.N</a>
+
                     </li>
                     <li>
-                        <a class="nav_link" href="/info.html#about">about</a>
+                        <button class="btn" onclick="toggleMenu()"><a class="nav_link"
+                                href="/info.html#about">about</a></button>
+
                     </li>
                     <li>
-                        <a class="nav_link" href="/info.html#reels">reels</a>
+                        <button class="btn" onclick="toggleMenu()"><a class="nav_link"
+                                href="/info.html#reels">reels</a></button>
                     </li>
                     <li>
-                        <a class="nav_link" href="/info.html#resume">resume</a>
+                        <button class="btn" onclick="toggleMenu()"><a class="nav_link"
+                                href="/info.html#resume">resume</a></button>
                     </li>
                     <li>
-                        <a class="nav_link" href="/info.html#headshots">headshots</a>
+                        <button class="btn" onclick="toggleMenu()"><a class="nav_link"
+                                href="/info.html#headshots">headshots</a></button>
                     </li>
                     <li>
-                        <a class="nav_link" href="/info.html#contact" id="contact_me">contact me</a>
+                        <button class="btn" onclick="toggleMenu()"><a class="nav_link" href="/info.html#contact"
+                                id="contact_me">contact me</a></button>
                     </li>
                 </ul>
             </div>
@@ -181,21 +189,29 @@
                     <li class="item">
                         <img src="./public/img/headshots/headshot.jpg" class="headshot_img" alt="headshot" />
                     </li>
-
                     <li class="item">
                         <img src="./public/img/headshots/headshot2.jpg" class="headshot_img" alt="headshot" />
                     </li>
                     <li class="item">
-                        <img src="./public/img/headshots/headshot.jpg" class="headshot_img" alt="headshot" />
+                        <img src="./public/img/headshots/headshot3.jpg" class="headshot_img" alt="headshot" />
                     </li>
                     <li class="item">
-                        <img src="./public/img/headshots/headshot2.jpg" class="headshot_img" alt="headshot" />
+                        <img src="./public/img/headshots/headshot4.jpg" class="headshot_img" alt="headshot" />
                     </li>
                     <li class="item">
-                        <img src="./public/img/headshots/headshot.jpg" class="headshot_img" alt="headshot" />
+                        <img src="./public/img/headshots/headshot5.jpg" class="headshot_img" alt="headshot" />
                     </li>
                     <li class="item">
-                        <img src="./public/img/headshots/headshot2.jpg" class="headshot_img" alt="headshot" />
+                        <img src="./public/img/headshots/headshot6.jpg" class="headshot_img" alt="headshot" />
+                    </li>
+                    <li class="item">
+                        <img src="./public/img/headshots/headshot7.jpg" class="headshot_img" alt="headshot" />
+                    </li>
+                    <li class="item">
+                        <img src="./public/img/headshots/headshot8.jpg" class="headshot_img" alt="headshot" />
+                    </li>
+                    <li class="item">
+                        <img src="./public/img/headshots/headshot9.jpg" class="headshot_img" alt="headshot" />
                     </li>
                 </ul>
             </div>
@@ -220,6 +236,7 @@
             </div>
         </div>
     </footer>
+
 
     <script type="text/javascript" src="./javascript/headshotGallery.js"></script>
     <script type="text/javascript" src="./javascript/hamburgerMenu.js"></script>
