@@ -7,34 +7,90 @@ footer {
 
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
 
-    min-height: 150px;
+    min-height: 125px;
     padding: 25px 50px;
 }
+
+.agency_contact *,
+.my_contact * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .agency_contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 
-    color: #fff;
-    margin: 0 1.5rem;
-}
-
-.agency_contact a {
     color: #fff;
 }
 
 .my_contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 
     color: #fff;
 }
 
-.my_contact a {
+.my_contact_info a,
+.agency_contact a {
     color: #fff;
+    color: #dbdbe0;
+}
+
+#agent_name {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.agency_contact h3,
+.my_contact h3 {
+    margin-bottom: 0.75rem;
+}
+
+.agency_contact h4 {
+    margin-bottom: 0.5rem;
+}
+
+.my_contact_icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.55rem;
+    font-size: 1.25rem;
+}
+
+.my_contact_icons a {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.my_contact_info p {
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (min-width: 600px) {
+    footer > div {
+        margin: 0 2.5rem;
+    }
+
+    footer > div:nth-last-child(1) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    footer > div {
+        margin: 1rem 0;
+    }
 }
