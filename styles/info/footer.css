@@ -65,6 +65,10 @@ footer {
     font-size: 1.25rem;
 }
 
+.my_contact_icons a img {
+    height: 2rem;
+}
+
 .my_contact_icons a {
     color: #fff;
     margin-right: 1rem;
@@ -88,6 +92,8 @@ footer {
     footer {
         flex-direction: column-reverse;
         align-items: flex-start;
+
+        padding: 10px 30px;
     }
 
     footer > div {

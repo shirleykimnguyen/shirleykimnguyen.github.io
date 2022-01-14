@@ -1,8 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Gloria+Hallelujah&family=Rock+3D&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Arima+Madurai:wght@700&family=Luckiest+Guy&family=Poiret+One&family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
-
 body {
     background-color: #f6f6c5;
 }
@@ -172,13 +167,20 @@ iframe {
         grid-template-columns: 1fr;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 766px) {
         .content_img {
             max-width: 85vw;
         }
         .navbar-brand {
             font-size: 1rem;
         }
+
+        .branding {
+            margin: 0 30px;
+        }
+    }
+
+    @media (max-width: 500px) {
     }
 }
 

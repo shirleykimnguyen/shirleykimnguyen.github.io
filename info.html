@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="./styles/info/headshots.css" />
     <link rel="stylesheet" href="./styles/info/footer.css" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Yuji+Hentaigana+Akari&display=swap"
+        rel="stylesheet">
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://skn1997.github.io/info" />
     <link rel="alternate" href="https://skn1997.github.io/info.html" />
@@ -34,7 +40,7 @@
                     <a class="nav_link" href="/info.html#about">about</a>
                 </li>
                 <li>
-                    <a class="nav_link" href="/info.html#reels">reels</a>
+                    <a class="nav_link" href="/info.html#reel">reel</a>
                 </li>
                 <li>
                     <a class="nav_link" href="/info.html#resume">resume</a>
@@ -43,7 +49,7 @@
                     <a class="nav_link" href="/info.html#headshots">headshots</a>
                 </li>
                 <li>
-                    <a class="nav_link" href="/info.html#contact">contact me</a>
+                    <a class="nav_link" href="/info.html#contact">contact</a>
                 </li>
             </ul>
             <div class="nav_empty"></div>
@@ -66,7 +72,7 @@
                     </li>
                     <li>
                         <button class="btn" onclick="toggleMenu()"><a class="nav_link"
-                                href="/info.html#reels">reels</a></button>
+                                href="/info.html#reel">reel</a></button>
                     </li>
                     <li>
                         <button class="btn" onclick="toggleMenu()"><a class="nav_link"
@@ -78,7 +84,7 @@
                     </li>
                     <li>
                         <button class="btn" onclick="toggleMenu()"><a class="nav_link" href="/info.html#contact"
-                                id="contact_me">contact me</a></button>
+                                id="contact_me">contact</a></button>
                     </li>
                 </ul>
             </div>
@@ -110,44 +116,46 @@
 
                     <!-- <em><span class="role">actor</span></em> -->
                     <div class="caption">
-                        <p>Born Kim Hoàng, Shirley is an actor originally from Ho Chi Minh City, Vietnam. At five, she
+                        <p>Born Kim Hoàng, Shirley is an actor originally from Ho Chi Minh City, Vietnam. At five,
+                            she
                             first became interested in acting after watching the 2001 biopic of Shirley Temple, whom she
                             found inspiring for singing, dancing and acting simultaneously at such a young age, leading
                             to her adopting the name Shirley for herself in first grade English class in public
-                            elementary school in Ho Chi Minh, Vietnam.
+                            elementary school.
                         </p>
                         <p>
                             After an unexpected move to the US at 11 years old with her family, Shirley lived in Georgia
                             for 8 years, during which she shied away from her interest in acting, having internalised
                             the effects of lack of media representation. Between moving to California and completing her
                             undergraduate studies at UC Irvine in English and Spanish, she began her acting training
-                            after watching Crazy Rich Asians catalysed her into motion.
+                            after watching <em>Crazy Rich Asians</em> (2018) catalysed her into motion.
                         </p>
                         <p>
                             Shirley is currently training with Actor’s Studio of Orange County (ASOOC) and Howard Fine.
-                            She has starred in Miguel S Romero’s short film, Ceci N’est Pas Une Pomme. She is currently
+                            She has starred in Miguel S Romero’s short film, <em>Ceci N’est Pas Une Pomme</em>. She is
+                            currently
                             one of ten actors chosen for the Actor’s Studio of Orange County’s showcase which recently
                             launched.
                         </p>
                         <p>
-                            When she’s not acting, Shirley spends her time surfing, playing piano, and self-learning
+                            When she’s not acting, Shirley's hobbies include surfing, playing piano, and self-learning
                             languages.</p>
                     </div>
                 </div>
                 <img src="./public/img/headshots/headshot2.jpg" class="content_img" alt="headshot" />
             </div>
         </section>
-        <section id="reels">
+        <section id="reel">
             <div class="heading">
-                <h1>reels</h1>
+                <h1>reel</h1>
             </div>
             <div class="reels_main">
-                <h2>Demo Reel</h2>
+                <!-- <h2>Demo Reel</h2> -->
                 <video class="main_vid" controls>
                     <source src="./public/reels/NguyenShirleyKim_Reel.mp4" type="video/mp4" />
                 </video>
             </div>
-            <div class="reels_grid">
+            <!-- <div class="reels_grid">
                 <div class="reel_vid">
                     <h3>Description</h3>
                     <video class="vid" controls>
@@ -166,7 +174,7 @@
                         <source src="./public/reels/NguyenShirleyKim_Reel.mp4" type="video/mp4" />
                     </video>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section id="resume">
             <div class="heading">
@@ -224,16 +232,26 @@
         <div class="agency_contact">
             <h3>Quartz Talent Agency</h3>
             <h4 id="agent_name">Agent Lacy Washburn</h4>
-            <p><a href="mailto: shirleykimnguyen@gmail.com">shirleykimnguyen@gmail.com</a></p>
+            <p><a href="mailto: Lacy@QuartzTalentAgency.com">Lacy@QuartzTalentAgency.com
+                </a></p>
+            <p><a href="tel:+18182840583"><em>(818) 284-0583</em></a></p>
         </div>
         <div class="my_contact">
             <h3>Contact</h3>
             <div class="my_contact_icons">
-                <p><a href="mailto: shirleykimnguyen@gmail.com"><i class="bi bi-envelope-fill"></i></a></p>
-                <p><a href="tel:+16785108397"><i class="bi bi-telephone-fill"></i></a></p>
+                <!-- IMDb -->
+                <a href="https://imdb.com/name/nm12619738?ref_=accset_nv_det_nv_usr_profile" target="_blank"><img
+                        src="./public/icons/imdb-48.png" /></a>
+                <!-- Actors Access -->
+                <a href="https://resumes.actorsaccess.com/shirleykimnguyen" target="_blank"><img
+                        src="./public/icons/breakdown-services-180.png" /></a>
+                <!-- Email -->
+                <a href="mailto: shirleykimnguyen@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                <!-- Phone -->
+                <a href="tel:+16785108397"><i class="bi bi-telephone-fill"></i></a>
             </div>
             <div class="my_contact_info">
-                <p><a href="mailto: shirleykimnguyen@gmail.com"><em>shirleykimnguyen@gmail.com</em></a></p>
+                <p><a href="mailto: ShirleyKimNguyen@gmail.com"><em>ShirleyKimNguyen@gmail.com</em></a></p>
                 <p><a href="tel:+16785108397"><em>(678) 510-8397</em></a></p>
             </div>
         </div>
