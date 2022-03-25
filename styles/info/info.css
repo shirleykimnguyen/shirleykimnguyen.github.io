@@ -119,9 +119,16 @@ h1 {
     max-width: 100%;
 }
 
+.pdf_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 iframe {
     width: 100%;
-    min-height: 750px;
+    max-width: 1100px;
+    min-height: 85vh;
 }
 
 #resume p {
