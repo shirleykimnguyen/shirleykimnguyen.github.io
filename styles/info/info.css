@@ -1,5 +1,5 @@
 body {
-    background-color: #f6f6c5;
+    background-color: #E3E3C6;
 }
 
 main {
@@ -27,7 +27,7 @@ h1 {
 
     font-size: 6rem;
     text-align: center;
-    color: #29876e;
+    color: #316255;
 }
 
 .content {
@@ -59,7 +59,7 @@ h1 {
     font-family: "Anton", sans-serif;
     font-size: 2.5em;
     margin: 0.25rem auto;
-    color: #29876e;
+    color: #316255;
 }
 
 .about_quote {

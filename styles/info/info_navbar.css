@@ -17,7 +17,7 @@
     /* background-color: rgba(74, 55, 55, 0.95); */
     background-color: rgba(255, 252, 226, 0.5);
     background-color: #37483c;
-    background-color: #29876e;
+    background-color: #316255;
     /* background-color: transparent; */
 }
 
@@ -127,7 +127,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     bottom: 0;
     z-index: 3;
 
-    background: #29876e;
+    background: #316255;
 
     padding-top: 4rem;
 }
@@ -178,10 +178,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     }
 
     .nav_link#contact_me {
-        color: #f6f6c5;
+        color: #E3E3C6;
         border-radius: 5px;
-        background: #f6f6c5;
-        color: #29876e;
+        background: #E3E3C6;
+        color: #316255;
     }
 }
 
